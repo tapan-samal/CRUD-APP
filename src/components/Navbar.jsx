@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { searchUser } from "../features/clientDetailSlice";
+import { searchUser } from "../features/userDetailSlice";
 
 const Navbar = () => {
   const [searchData, setSearchData] = useState("");

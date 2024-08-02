@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { createUser } from "../features/clientDetailSlice";
+import { createUser } from "../features/userDetailSlice";
 import { Link, useNavigate } from "react-router-dom";
 
 const Create = () => {
@@ -27,7 +27,7 @@ const Create = () => {
   return (
     <div>
       <h2 className="text-center my-3">Add New User</h2>
-      <form className="w-50 mx-auto my-2 " novalidate onSubmit={handleUserData}>
+      <form className="w-50 mx-auto my-2" onSubmit={handleUserData}>
         <div className="mb-3">
           <label className="form-label">Name:</label>
           <input

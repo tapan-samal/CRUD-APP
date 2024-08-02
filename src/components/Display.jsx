@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteUser, displayUser } from "../features/clientDetailSlice";
+import { deleteUser, displayUser } from "../features/userDetailSlice";
 import { Link } from "react-router-dom";
 import ViewModal from "./ViewModal";
 

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link, useNavigate, useParams} from "react-router-dom";
 import {useSelector, useDispatch} from "react-redux";
-import { updateUser } from '../features/clientDetailSlice';
+import { updateUser } from '../features/userDetailSlice';
 
 const Update = () => {
 
